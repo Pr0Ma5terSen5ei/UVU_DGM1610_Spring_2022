@@ -7,21 +7,21 @@ public class BehaviourComponents : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (Intput.GetKeyDown(KeyCode.R))
+        if (Input.GetKeyDown(KeyCode.R))
         {
             GetComponent<Renderer> ().material.color = Color.red;
         }
-        if (Intput.GetKeyDown(KeyCode.G))
+        if (Input.GetKeyDown(KeyCode.G))
         {
             GetComponent<Renderer> ().material.color = Color.green;
         }
-        if (Intput.GetKeyDown(KeyCode.B))
+        if (Input.GetKeyDown(KeyCode.B))
         {
             GetComponent<Renderer> ().material.color = Color.blue;
         }
