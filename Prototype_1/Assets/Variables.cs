@@ -7,6 +7,7 @@ public class Variables : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        /*
         string name = "John";
         Console.WriteLine(name);
 
@@ -36,6 +37,7 @@ public class Variables : MonoBehaviour
         double d1 = 12E4D;
         Console.WriteLine(f1);
         Console.WriteLine(d1);
+        */
     }
 
     // Update is called once per frame
